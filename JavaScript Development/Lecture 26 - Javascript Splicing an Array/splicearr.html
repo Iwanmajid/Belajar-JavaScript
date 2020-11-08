@@ -1,0 +1,16 @@
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"];
+        fruits.splice(2, 0, "Lemon", "Banana"); //Menambahkan lebih dari satu elemen diantara elemen yang sudah ada pada array, serta bisa untuk menghilangkan elemen
+        //Angka "2" pada method diatas adalah mengindikasi posisi awal untuk memasukkan elemen baru pada array
+        //Angka "0" pada method diatas adalah mengindikasi bahwa tidak akan menghapus elemen apapun yang ada pada array ketika memasukkan elemen baru
+
+        document.getElementById("demo").innerHTML =
+            fruits.join(" - ");
+    </script>
+</body>
+
+</html>

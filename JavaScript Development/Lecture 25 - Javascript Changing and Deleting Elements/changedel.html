@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"];
+        //fruits[3] = "Kiwi"; //Mengganti elemen pada array sesuai nomor index
+        delete fruits[3]; //Menghapus elemen pada array sesuai nomor index
+
+        document.getElementById("demo").innerHTML =
+            fruits.join(" - ");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"];
+        //fruits.pop(); //Menghilangkan elemen terakhir hanya pada array (tidak menghilangkan dari fungsi "push" dan "unshift")
+        //fruits.shift(); //Menghilangkan elemen pertama hanya pada array (tidak menghilangkan dari fungsi "push" dan "unshift")
+        //fruits.push("Cherry"); //Menambahkan elemen di bagian terakhir pada array
+        //fruits.unshift("Cherry"); //Menambahkan elemen di bagian awal pada array
+
+        document.getElementById("demo").innerHTML =
+            fruits.join(" - ");
+    </script>
+</body>
+
+</html>
